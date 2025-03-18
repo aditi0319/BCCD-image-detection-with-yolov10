@@ -9,3 +9,6 @@ This project performs object detection on blood cell images, identifying RBCs, W
 # 📁 Dataset
 The dataset used for this project is the BCCD Dataset (Blood Cell Count and Detection). It contains annotated images of blood samples, including RBCs, WBCs, and Platelets.
   
+## Hugging Face app
+
+https://huggingface.co/spaces/Aditi0330/BCCD-image-detection-with-yolov10#object-detection-with-yolov10-on-bccd-dataset  
