@@ -1,6 +1,6 @@
 # 🩸Blood Cell Detection with YOLOv10
 This project performs object detection on blood cell images, identifying RBCs, WBCs, and Platelets. It uses YOLOv10 to detect and classify these cells, drawing bounding boxes around them with confidence scores. The model also calculates overall and class-wise precision and recall metrics.
-#📌 Features
+# 📌 Features
 * Detects and classifies RBCs, WBCs, and Platelets
 * Draws bounding boxes with confidence scores
 * Computes precision & recall for each class and overall
