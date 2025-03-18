@@ -1,14 +1,11 @@
----
-title: BCCD Image Detection With Yolov10
-emoji: 🐠
-colorFrom: green
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.40.1
-app_file: app.py
-pinned: false
-short_description: A space for the BCCD image detection application
-application_link: https://huggingface.co/spaces/leviathan003/BCCD-image-detection-with-yolov10
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# 🩸Blood Cell Detection with YOLOv10
+This project performs object detection on blood cell images, identifying RBCs, WBCs, and Platelets. It uses YOLOv10 to detect and classify these cells, drawing bounding boxes around them with confidence scores. The model also calculates overall and class-wise precision and recall metrics.
+#📌 Features
+* Detects and classifies RBCs, WBCs, and Platelets
+* Draws bounding boxes with confidence scores
+* Computes precision & recall for each class and overall
+* Allows users to toggle between model weights (Best and Last)
+* User-friendly Hugging Face Space interface
+# 📁 Dataset
+The dataset used for this project is the BCCD Dataset (Blood Cell Count and Detection). It contains annotated images of blood samples, including RBCs, WBCs, and Platelets.
+  
